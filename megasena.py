@@ -4,8 +4,6 @@ import random
 num_games = 6
 megasena_numbers = set([1, 17, 19, 29, 50, 57])
 megasena_award = 635000000
-# or if you want a random number
-# megasena_numbers = [random.randint(1, 60) for _ in range(6)]
 # END INPUTS ------------------------------------------------------------------------------------------------
 
 bet_num = 0
