@@ -31,7 +31,7 @@ while True:
         bet.add(random.randint(1, 60))
         if len(bet) == num_games:
             break
-    if megasena_numbers.issubset(set(bet)):
+    if megasena_numbers.issubset(bet):
         total_cost = bet_num * bet_cost_by_game[num_games]
         award_after_taxes = megasena_award * 0.70
         profit = (award_after_taxes - total_cost)
